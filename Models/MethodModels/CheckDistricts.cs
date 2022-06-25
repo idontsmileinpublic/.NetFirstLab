@@ -9,7 +9,7 @@ namespace Lab1.MethodModels
     public class CheckDistricts
     {
         public District District { get; set; }
-        public IEnumerable<string> Apartments { get; set; }
-        public IEnumerable<string> Address { get; set; }
+        public Apartment Apartments { get; set; }
+        public IEnumerable<Address> Address { get; set; }
     }
 }

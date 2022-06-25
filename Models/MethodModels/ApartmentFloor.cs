@@ -8,6 +8,6 @@ namespace Lab1.MethodModels
     public class ApartmentFloor
     {
         public int Floor { get; set; }
-        public IEnumerable<string> Address { get; set; }
+        public IEnumerable<Address> Address { get; set; }
     }
 }

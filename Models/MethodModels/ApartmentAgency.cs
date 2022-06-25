@@ -16,9 +16,9 @@ namespace Lab1.MethodModels
 
         public Agency Agency { get; set; }
 
-        public IEnumerable<string> Addresses { get; set; }
+        public IEnumerable<Address> Addresses { get; set; }
 
-        public IGrouping<Agency, Apartment> Apartments { get; set; }
+        public IEnumerable<Apartment> Apartments { get; set; }
 
     }
 }

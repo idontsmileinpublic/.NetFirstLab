@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj",
+      "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj",
       "projectName": "Program",
-      "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj",
+      "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj",
       "packagesPath": "/Users/sonyamaiystrenko/.nuget/packages/",
-      "outputPath": "/Users/sonyamaiystrenko/Projects/Lab2/Program/obj/",
+      "outputPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sonyamaiystrenko/.config/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj": {
-              "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj"
+            "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj": {
+              "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj"
             }
           }
         }
