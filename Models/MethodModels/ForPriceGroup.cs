@@ -8,7 +8,7 @@ namespace Lab1.MethodModels
 {
     public class ForPriceGroup
     {
-        public int Price { get; set; }
-        public IEnumerable<string> Address { get; set; }
+        public decimal Price { get; set; }
+        public IEnumerable<Address> Address { get; set; }
     }
 }

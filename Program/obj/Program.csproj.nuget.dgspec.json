@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj": {}
+    "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj": {}
   },
   "projects": {
-    "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj": {
+    "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj",
+        "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj",
+        "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj",
         "packagesPath": "/Users/sonyamaiystrenko/.nuget/packages/",
-        "outputPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/obj/",
+        "outputPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sonyamaiystrenko/.config/NuGet/NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj": {
+    "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj",
+        "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj",
         "projectName": "Program",
-        "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Program/Program.csproj",
+        "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/Program.csproj",
         "packagesPath": "/Users/sonyamaiystrenko/.nuget/packages/",
-        "outputPath": "/Users/sonyamaiystrenko/Projects/Lab2/Program/obj/",
+        "outputPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Program/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sonyamaiystrenko/.config/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj": {
-                "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj"
+              "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj": {
+                "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj"
               }
             }
           }

@@ -8,8 +8,8 @@ namespace Lab1.MethodModels
 {
     public class AddressAreaDistrict
     {
-        public string Address { get; set; }
-        public int Area { get; set; }
+        public Address Addresses { get; set; }
+        public double Area { get; set; }
 
     }
 }

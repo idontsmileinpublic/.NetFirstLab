@@ -10,14 +10,14 @@ namespace Lab1.MethodModels
     {
         public Realtor Realtor { get; set; }
 
-        public Apartment Apartment { get; set; }
-
         public ApartmentRealtor ApartmentRealtor { get; set; }
 
         public Agency Agency { get; set; }
 
         public Address Addresses { get; set; }
 
-        public IGrouping<Agency, Apartment> Apartments { get; set; }
+        public IEnumerable<Apartment> Apartments { get; set; }
+
+        public decimal OverallPrice { get; set; }
     }
 }

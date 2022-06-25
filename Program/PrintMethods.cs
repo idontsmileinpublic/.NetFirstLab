@@ -67,7 +67,7 @@ namespace Program
 
             foreach (var a in result)
             {
-                Console.WriteLine($"{a.Agency.Name} {a.Realtor.NameRealtor}");
+                Console.WriteLine($"{a.Agency.Name} {a.Realtor.Name} {a.Realtor.Patronymic} {a.Realtor.Surname}");
             }
 
             Console.WriteLine($"\t");
@@ -91,11 +91,11 @@ namespace Program
 
         public static void PrintByResidArea()
         {
-            var result = Queries.GroupByDistrict2();
+            var result = Queries.GroupByDistrict();
 
             foreach (var a in result)
             {
-                Console.WriteLine($"Район: {a.District.NameDistrict}");
+                Console.WriteLine($"Район: {a.District.Name}");
                 foreach (var b in a.Address)
                 {
                     Console.WriteLine($"\t{b}");
@@ -113,7 +113,7 @@ namespace Program
 
             foreach (var a in result)
             {
-                Console.WriteLine($"Ціна: {a.Price}");
+                Console.WriteLine($"Ціна: {a.Price:F2}");
                 foreach (var b in a.Address)
                 {
                     Console.WriteLine($"\t{b}");
@@ -125,13 +125,13 @@ namespace Program
 
         // 9
 
-        public static void PrintApartmentsRieltors()
+        public static void PrintApartmentsRealtors()
         {
-            var result = Queries.ApartmentsRieltors();
+            var result = Queries.ApartmentsRealtors();
 
             foreach (var a in result)
             {
-                Console.WriteLine($"{a.Addresses.Street} {a.Realtor.NameRealtor} {a.ApartmentRealtor.Price}");
+                Console.WriteLine($"{a.Addresses.Street} {a.Realtor.Name} {a.Realtor.Patronymic} {a.Realtor.Surname} {a.OverallPrice}");
             }
 
             Console.WriteLine($"\t");
@@ -144,7 +144,7 @@ namespace Program
             var result = Queries.PrintMaxApartmentsRealtor();
 
             foreach (var a in result)
-                Console.WriteLine($"{a.NameRealtor}");
+                Console.WriteLine($"{a.Name} {a.Patronymic} {a.Surname}");
 
             Console.WriteLine();
         }
@@ -173,7 +173,7 @@ namespace Program
 
             foreach (var a in result)
             {
-                Console.WriteLine($"{a.Address} | {a.Area}");
+                Console.WriteLine($"{a.Addresses} | {a.Area}");
             }
 
             Console.WriteLine();
@@ -232,6 +232,18 @@ namespace Program
 
             foreach (var row in result)
                 Console.WriteLine($"{row.Agency.Name}: {row.CountRealtors}");
+
+            Console.WriteLine();
+        }
+
+        // 17
+
+        public static void PrintAllConcatAgencies()
+        {
+            var result = Queries.ConcatAgencies();
+
+            foreach (var row in result)
+                Console.WriteLine(row);
 
             Console.WriteLine();
         }

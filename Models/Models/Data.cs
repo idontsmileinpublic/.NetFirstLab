@@ -6,34 +6,58 @@ namespace Lab1.Models
 {
     public class Data
     {
-        public static List<Agency> Agencies => new List<Agency>
+        public static ICollection<Agency> Agencies => new List<Agency>
         {
             new Agency()
             {
                 Name = "Рієлторська компанія Золоті ворота",
-                IdAdress = 12,
+                AddressId = 12,
                 Id = 1
             },
 
             new Agency()
             {
                 Name = "PRODANO",
-                IdAdress = 3,
+                AddressId = 3,
                 Id = 2
             },
 
             new Agency()
             {
                 Name = "Realty House",
-                IdAdress = 14,
+                AddressId = 14,
                 Id = 3
             },
 
             new Agency()
             {
                 Name = "The Capital",
-                IdAdress = 17,
+                AddressId = 17,
                 Id = 4
+            }
+        };
+
+        public static List<Agency> TestAgency => new List<Agency>
+        {
+            new Agency()
+            {
+                Name = "ПроАренда",
+                AddressId = 10,
+                Id = 1
+            },
+
+            new Agency()
+            {
+                Name = "Арендуймо! Київ",
+                AddressId = 4,
+                Id = 2
+            },
+
+            new Agency()
+            {
+                Name = "Аренда за класні кошти",
+                AddressId = 9,
+                Id = 3
             }
         };
 
@@ -46,7 +70,7 @@ namespace Lab1.Models
                 Floor = 2,
                 Area = 40,
                 DistrictID = 7,
-                StreetId = 2
+                AddressId = 2
             },
 
             new Apartment()
@@ -56,7 +80,7 @@ namespace Lab1.Models
                 Floor = 5,
                 Area = 56,
                 DistrictID = 6,
-                StreetId = 4
+                AddressId = 4
 
             },
 
@@ -67,7 +91,7 @@ namespace Lab1.Models
                 Floor = 12,
                 Area = 30,
                 DistrictID = 2,
-                StreetId = 5
+                AddressId = 5
             },
 
             new Apartment()
@@ -77,7 +101,7 @@ namespace Lab1.Models
                 Floor = 10,
                 Area = 80,
                 DistrictID = 8,
-                StreetId = 3
+                AddressId = 3
             },
 
             new Apartment()
@@ -87,7 +111,7 @@ namespace Lab1.Models
                 Floor = 3,
                 Area = 80,
                 DistrictID = 7,
-                StreetId = 1
+                AddressId = 1
             }
         };
 
@@ -95,38 +119,48 @@ namespace Lab1.Models
         public static List<Realtor> Realtors => new List<Realtor>
         {
             new Realtor{
-                NameRealtor = "Ватуніна Ольга Михайлівна",
+                Name = "Ольга",
+                Patronymic = "Михайлівна",
+                Surname = "Ватуніна",
                 PhoneNumber = "0675489363",
                 Id = 1,
-                IdAgency = 1
+                AgencyId = 1
             },
 
             new Realtor{
-                NameRealtor = "Гороховський Сергій Володимирович",
+                Name = "Сергій",
+                Patronymic = "Володимирович",
+                Surname = "Гороховський",
                 PhoneNumber = "0556478392",
                 Id = 2,
-                IdAgency = 1
+                AgencyId = 1
             },
 
             new Realtor{
-                NameRealtor = "Вільна Катерина Степанівна",
+                Name = "Катерина",
+                Patronymic = "Степанівна",
+                Surname = "Вільна",
                 PhoneNumber = "0957192444",
                 Id = 3,
-                IdAgency = 3,
+                AgencyId = 3,
             },
 
             new Realtor{
-                NameRealtor = "Ткачук Віталій Олександрович",
+                Name = "Віталій",
+                Patronymic = "Орестович",
+                Surname = "Ткачук",
                 PhoneNumber = "0668489848",
                 Id = 4,
-                IdAgency = 4,
+                AgencyId = 4,
             },
 
             new Realtor{
-                NameRealtor = "Вітаєнко Марина Олексіївна",
+                Name = "Марина",
+                Patronymic = "Олексіївна",
+                Surname = "Вітаєнко",
                 PhoneNumber = "0637829039",
                 Id = 5,
-                IdAgency = 2,
+                AgencyId = 2,
             }
         };
 
@@ -134,44 +168,44 @@ namespace Lab1.Models
         {
             new ApartmentRealtor
             {
-                idApartment = 2,
-                idRealtor = 1,
-                Price = 10000
+                ApartmentId = 2,
+                RealtorId = 1,
+                Price = 200
             },
 
             new ApartmentRealtor
             {
-                idApartment = 2,
-                idRealtor = 3,
-                Price = 10500
+                ApartmentId = 2,
+                RealtorId = 3,
+                Price = 300
             },
 
             new ApartmentRealtor
             {
-                idApartment = 3,
-                idRealtor = 4,
-                Price = 11000
+                ApartmentId = 3,
+                RealtorId = 4,
+                Price = 700
             },
 
             new ApartmentRealtor
             {
-                idApartment = 2,
-                idRealtor = 4,
-                Price = 12000
+                ApartmentId = 2,
+                RealtorId = 4,
+                Price = 280
             },
 
             new ApartmentRealtor
             {
-                idApartment = 1,
-                idRealtor = 1,
-                Price = 15500
+                ApartmentId = 1,
+                RealtorId = 1,
+                Price = 800
             },
 
             new ApartmentRealtor
             {
-                idApartment = 3,
-                idRealtor = 2,
-                Price = 12000
+                ApartmentId = 3,
+                RealtorId = 2,
+                Price = 600
             }
         };
 
@@ -304,62 +338,62 @@ namespace Lab1.Models
         {
             new District()
             {
-                IdDistrict = 1,
-                NameDistrict = "Печерський",
+                DistrictId = 1,
+                Name = "Печерський",
             },
 
             new District()
             {
-                IdDistrict = 2,
-                NameDistrict = "Оболонський",
+                DistrictId = 2,
+                Name = "Оболонський",
             },
 
             new District()
             {
-                IdDistrict = 3,
-                NameDistrict = "Голосіївський"
+                DistrictId = 3,
+                Name = "Голосіївський"
             },
 
             new District()
             {
-                IdDistrict = 4,
-                NameDistrict = "Подольський"
+                DistrictId = 4,
+                Name = "Подольський"
             },
 
             new District()
             {
-                IdDistrict = 5,
-                NameDistrict = "Святошинський"
+                DistrictId = 5,
+                Name = "Святошинський"
             },
 
             new District()
             {
-                IdDistrict = 6,
-                NameDistrict = "Солом'янський"
+                DistrictId = 6,
+                Name = "Солом'янський"
             },
 
             new District()
             {
-                IdDistrict = 7,
-                NameDistrict = "Шевченківський"
+                DistrictId = 7,
+                Name = "Шевченківський"
             },
 
             new District()
             {
-                IdDistrict = 8,
-                NameDistrict = "Дарницький"
+                DistrictId = 8,
+                Name = "Дарницький"
             },
 
             new District()
             {
-                IdDistrict = 9,
-                NameDistrict = "Деснянський"
+                DistrictId = 9,
+                Name = "Деснянський"
             },
 
             new District()
             {
-                IdDistrict = 10,
-                NameDistrict = "Дніпровський"
+                DistrictId = 10,
+                Name = "Дніпровський"
             }
         };
     }

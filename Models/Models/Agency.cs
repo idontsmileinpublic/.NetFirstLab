@@ -8,11 +8,11 @@ namespace Lab1.Models
 
         public int Id { get; set; }
 
-        public int IdAdress { get; set; }
+        public int AddressId { get; set; }
 
         public override string ToString()
         {
-            return string.Format($"Назва: {Name};");
+            return $"Назва: {Name};";
         }
     }
 }

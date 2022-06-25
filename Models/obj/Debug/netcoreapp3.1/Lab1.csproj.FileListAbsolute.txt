@@ -7,3 +7,12 @@
 /Users/sonyamaiystrenko/Projects/Lab2/Models/obj/Debug/netcoreapp3.1/Lab1.csproj.CoreCompileInputs.cache
 /Users/sonyamaiystrenko/Projects/Lab2/Models/obj/Debug/netcoreapp3.1/Lab1.dll
 /Users/sonyamaiystrenko/Projects/Lab2/Models/obj/Debug/netcoreapp3.1/Lab1.pdb
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/bin/Debug/netcoreapp3.1/Lab1.deps.json
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/bin/Debug/netcoreapp3.1/Lab1.dll
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/bin/Debug/netcoreapp3.1/Lab1.pdb
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.csprojAssemblyReference.cache
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.AssemblyInfoInputs.cache
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.AssemblyInfo.cs
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.csproj.CoreCompileInputs.cache
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.dll
+/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/Debug/netcoreapp3.1/Lab1.pdb

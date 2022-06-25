@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj",
+      "projectUniqueName": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj",
       "projectName": "Lab1",
-      "projectPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/Lab1.csproj",
+      "projectPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/Lab1.csproj",
       "packagesPath": "/Users/sonyamaiystrenko/.nuget/packages/",
-      "outputPath": "/Users/sonyamaiystrenko/Projects/Lab2/Models/obj/",
+      "outputPath": "/Users/sonyamaiystrenko/Projects/Lab1Maistrenko/Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sonyamaiystrenko/.config/NuGet/NuGet.Config"
