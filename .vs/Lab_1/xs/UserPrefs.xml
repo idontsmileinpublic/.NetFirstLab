@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{0E011F8C-DCB3-43DC-A62C-5AC6BB175B82}|Default">
   <MonoDevelop.Ide.ItemProperties.Program PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Models/Realtor.cs">
     <Files>
       <File FileName="Models/Models/Address.cs" Line="4" Column="25" />
       <File FileName="Models/MethodModels/ForPriceGroup.cs" />
@@ -13,6 +13,7 @@
       <File FileName="Models/Models/District.cs" />
       <File FileName="Program/MenuFunc.cs" />
       <File FileName="Models/Models/Realtor.cs" Line="1" Column="1" />
+      <File FileName="Models/Models/Agency.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
